@@ -1,7 +1,7 @@
 package arrayAndFunctions;
 
-public class DecimalToAnyBase {
-    public static void main(String args[]) {
+class DecimalToAnyBase {
+    public static void main(String[] args) {
 
         int n = 634;
         int base = 2;

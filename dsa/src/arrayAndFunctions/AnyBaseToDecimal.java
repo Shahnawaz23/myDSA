@@ -1,6 +1,6 @@
 package arrayAndFunctions;
 
-public class AnyBaseToDecimal {
+class AnyBaseToDecimal {
 
     public static void main(String[] args) {
         int n = 1172;
@@ -9,7 +9,8 @@ public class AnyBaseToDecimal {
         System.out.println(anyBaseToDecimal(n,base));
     }
 
-    public static int anyBaseToDecimal(int n, int base) {
+
+    static int anyBaseToDecimal(int n, int base) {
         int result = 0;
         int i = 0;
         while (n > 0) {
