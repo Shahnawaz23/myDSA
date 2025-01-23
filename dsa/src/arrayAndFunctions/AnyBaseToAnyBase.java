@@ -2,13 +2,15 @@ package arrayAndFunctions;
 
 class AnyBaseToAnyBase {
     public static void main(String[] args) {
-        int n = 100;
+        int n = 1050;
         int givenBase = 8;
         int requiredBase = 2;
 
         int decimal = anyBaseToDecimal(n,givenBase);
         int destinationBase = decimalToAnyBase(decimal,requiredBase);
         System.out.println(destinationBase);
+
+
     }
 
     static int anyBaseToDecimal(int n, int base) {
@@ -39,4 +41,5 @@ class AnyBaseToAnyBase {
 
         return result;
     }
+
 }
