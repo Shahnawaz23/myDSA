@@ -16,7 +16,6 @@ public class RemovePrime {
     }
 
     public static ArrayList<Integer> removePrime(ArrayList<Integer> al) {
-        ;
 
         for (int i = al.size()-1; i>=0; i--) {
             int val = al.get(i);
