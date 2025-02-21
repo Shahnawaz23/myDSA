@@ -1,6 +1,6 @@
 package leetcode;
 
-public class RemoveDuplicatesII {
+public class  RemoveDuplicatesII {
 
     public int removeDuplicates(int[] nums) {
         int index = 2;
