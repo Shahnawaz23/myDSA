@@ -1,6 +1,6 @@
 package leetcode;
 
-public class g {
+public class MinimumSizeSubarraySum {
     public int minSubArrayLen(int target, int[] nums) {
         // Arrays.sort(nums);
         int i = 0;
